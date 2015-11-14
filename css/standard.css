@@ -1,0 +1,365 @@
+body 		{
+	padding: 0px;
+	margin: 0px; 
+	/*	text-align: center; */
+	font-family: "Verdana","Arial","Helvetica",sans-serif;
+	font-size: 0.8em ;
+}
+
+
+b {
+color: black;
+text-align: center;
+}
+b:hover{
+color: black;
+}
+
+h1 {
+	font: bold 120% Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color: black;
+	background: white;
+	width: 100%;
+	margin-left: -10px;
+	padding: 10px;
+	margin-top: -8px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+}
+
+h2 {
+	font: bold 100% Verdana, Geneva, Arial, Helvetica, sans-serif;
+	margin: 0 auto;
+}
+
+h3 {
+	font-weight: bold;
+	font-size: 105%;
+	color: black;
+	background-color: white;
+	width: 100%;
+	margin-left: -8px;
+	padding: 8px;
+	margin-bottom: 0px;
+}
+
+h3:hover {
+background-color: black;
+color: white;
+}
+
+form {
+	text-align: left;
+}
+
+label{
+	float: left;
+	width: 200px;
+	font-weight: bold;
+	margin-left: 5px;
+}
+
+input select {
+         background-color: #afd3ff;
+         color: #000000;
+         font-family: "Trebuchet MS", Arial, Helvetica, Verdana, sans-serif;
+         font-size: 12px;
+         padding: .2em
+         width: 200px;
+         margin-left: 25px;
+}
+
+img {
+	border: 0;
+	}
+.font {
+color: white;
+}
+
+/* Containercentre wraps around everything so it will centre in IE5 */
+.middle {
+	width: 100%; /* want this to be 165 in everything except IE */
+	font-size: 1.1em;
+	background-color: #19A347;
+	padding: 5px;
+	padding-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+	text-align: center;
+}
+
+
+a {font-weight: bold; font-size: 98%; text-decoration: none;}
+a:link {color: #096;}
+a:visited {color: #096;}
+a:hover {color: #000000;}
+a:active {color: #999;}
+
+pre {
+white-space: pre-wrap; /* css-3 */
+white-space: -moz-pre-wrap !important; /* Mozilla, since 1999 */
+white-space: -pre-wrap; /* Opera 4-6 */
+white-space: -o-pre-wrap; /* Opera 7 */
+word-wrap: break-word; /* Internet Explorer 5.5+ */
+color: white;
+}
+
+.content {
+	width: 205px; 
+	margin-right: 2px;
+	margin-left: -2px;
+	margin-top: 15px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 3px;
+	background-image: url('../graphics/buttons/button.jpg');
+	color: black;
+}
+.subbox {
+	width: 205px; 
+	font-size: 0.9em;
+	background-color: #D9F2E5;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-bottom: 0px;
+	margin-left: -2px; 
+	margin-right: 2px; 
+	background-image: url('../graphics/buttons/middle.jpg');
+}
+.bottom_menu {
+	width: 205px;
+	margin: -21px 0px 0px -2px;
+}
+
+.bottom_menu_right {
+	width: 205px;
+	margin: -21px 0px 0px 0px;
+}
+#bottom_menu_right {
+	width: 205px;
+	margin: -21px 0px 0px 0px;
+}
+.main_content {
+text-align: center;
+color: white;
+font-size: 19px;
+}
+
+a.main_link {
+color: white;
+text-decoration: underline;
+}
+
+a:hover.main_link {
+color: black;
+}
+
+
+.contentright {
+	width: 205px; 
+	margin-right: 1px;
+	margin-left: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-top: 15px;
+	padding-bottom: 3px;
+	background-image: url('../graphics/buttons/button.jpg');
+}
+
+.subboxright {
+	width: 205px; /* want this to be 165 in everything except IE */
+	font-size: 0.9em;
+	background-color: #D9F2E5;
+	padding: 0px;
+	padding-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	background-image: url('../graphics/buttons/middle.jpg');
+}
+
+div.subboxright .button{
+margin: 0px 0px 9px 35px;
+width: 155px;
+padding: 0px 0px;
+background:#CC0000;
+border:2px;
+border-bottom: 1px double #660000;
+border-top: 1px double #660000;
+border-left:1px double #FF0033;
+border-right:1px double #FF0033;
+color: white;
+}
+div.subboxright input{
+	background: #D9F2E5;
+	width: 150px;
+	margin-left: 35px
+	}
+div.subboxright label {
+	margin-left: 35px;
+}
+
+.subbox a {
+display: block;
+width: 99%;
+}
+.subbox li:hover{
+background-color: white;
+width: 99%;
+}
+
+.subboxright a {
+display: block;
+width: 100%;
+}
+.subboxright li:hover{
+background-color: white;
+width: 99%;
+}
+
+.subbox ul {
+	list-style-type: none;
+	line-height: 200%;
+	text-indent: 0px;
+	margin-left: 20px;
+	margin-top: 0px;
+	padding-left: 0px 
+}
+
+.subboxright ul {
+	list-style-type: none;
+	line-height: 200%;
+	text-indent: 0px;
+	margin-left: 0px;
+	padding-left: 20px;
+	margin-top: 0px;
+}
+.subbox h2 {
+	padding-top: 0px;
+	margin-bottom: 0px;
+}
+
+.subboxright h2 {
+	margin-bottom: 0px;
+	margin-bottom: 0px;
+}
+.vouchers a {
+color: yellow;
+font-size: 90%;
+line-height: 180%;
+text-align: left;
+}
+.vouchers a:hover {
+color: white;
+}
+.vouchers li {
+color: yellow;
+text-align: left;
+}
+
+#logoutButton{
+margin: 0px 0px 9px 18px;
+width: 155px;
+padding: 0px 0px;
+background:#CC0000;
+border:2px;
+border-bottom: 1px double #660000;
+border-top: 1px double #660000;
+border-left:1px double #FF0033;
+border-right:1px double #FF0033;
+color: white;
+}
+
+#admin{
+width: 100%;
+font-size: 60%;
+border: thin solid black;
+background: white;
+}
+textarea#admin{
+border: 1px solid black;
+width: 90px;
+height: 100px;
+font-size: 150%;
+}
+
+.menu_table {
+width: 100%;
+background-color: black;
+}
+
+#table_delivery{
+color: yellow;
+width: 99%;
+background-color: white;
+}
+
+.menu_table table{
+width: 100%;
+background-color: white;
+text-align: center;
+margin: 0 auto;
+font-size: 120%;
+line-height: 200%;
+}
+.menu_table td{
+border: thin solid black;
+}
+
+.menu_table td:hover{
+border: 1px thin solid black;
+background-color: black;
+color: white;
+font-size: 120%;
+}
+#log_text {
+margin-left: 50px;
+margin-top: 0px;
+}
+
+html, body, #bg, #bg table, #bg td {
+    height:100%;
+    width:100%;
+    overflow:hidden;
+}
+
+#bg {
+    position: fixed;
+}
+
+#bg div {
+    height:200%;
+    left:-50%;
+    position:absolute;
+    top:-50%;
+    width:200%;
+}
+
+#bg td {
+    text-align:center;
+    vertical-align:middle;
+}
+
+#bg img {
+    margin:0px: 0px: 0px: 0px:;
+    padding: 0px;
+    height: auto;
+    width: auto;
+    min-height: 50%;
+    min-width: 50%;
+}
+#cont {
+    position:absolute;
+    top:0px;left:0; bottom:0; right:0;
+    z-index:70;
+    overflow:auto;
+}
+
+.box {
+    margin: 0 auto;
+    width: 1000px;
+    padding: 20px;
+}

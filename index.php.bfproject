@@ -1,0 +1,34 @@
+name: Jade Palace
+files: /var/www/JadePalace/voucher.php
+files: /var/www/JadePalace/top_page.php
+files: /var/www/GoldenDragon/footer.php
+files: /var/www/JadePalace/admin_functions.php
+files: /var/www/JadePalace/admin.php
+files: /var/www/JadePalace/footer.php
+basedir: /var/www/
+webdir: 127.0.0.1
+template: 
+word_wrap: 0
+searchlist: table
+bmarks: ::/var/www/index.php:1131:><tr><td></td></tr><:1948:
+recent_files: /var/www/JadePalace/voucher.php
+recent_files: /var/www/JadePalace/top_page.php
+recent_files: /var/www/GoldenDragon/footer.php
+recent_files: /var/www/JadePalace/admin_functions.php
+recent_files: /var/www/JadePalace/admin.php
+recent_files: /var/www/JadePalace/footer.php
+recent_files: /var/www/JadePalace/drinks.php
+recent_files: /var/www/JadePalace/dishes_function.php
+recent_files: /var/www/JadePalace/special.php
+recent_files: /var/www/GoldenDragon/voucher.php
+recent_files: /var/www/JadePalace/free.php
+recent_files: /var/www/GoldenDragon/free.php
+recent_files: /var/www/GoldenDragon/top_page.php
+recent_files: /var/www/GoldenDragon/index.php
+recent_files: /var/www/GoldenDragon/menu.php
+opendir: /var/www/JadePalace
+savedir: /var/www/JadePalace
+view_html_toolbar: 1
+view_custom_menu: 1
+view_main_toolbar: 1
+view_left_panel: 1

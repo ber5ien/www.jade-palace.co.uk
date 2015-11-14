@@ -1,0 +1,4 @@
+[PHP]
+
+; For Unix only.  You may supply arguments as well (default: "sendmail -t -i").
+sendmail_path = "/usr/sbin/sendmail -t -i -F bounce@example.com -f bounce@example.com"

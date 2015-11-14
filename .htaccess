@@ -1,0 +1,4 @@
+rewriteengine on
+rewritecond %{HTTP_HOST} ^www.goldendragonpenzance.co.uk$ [OR]
+rewritecond %{HTTP_HOST} ^goldendragonpenzance.co.uk$
+rewriterule ^GoldenDragon\/(.*)$ "http\:\/\/www\.chineselanternpenzance\.co\.uk\/$1" [R=301,L] #4da992ea59eae
